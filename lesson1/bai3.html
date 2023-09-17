@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click on the button</p>
+    <input type="number" name="nhap" id="" ></input>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script language="JavaScript">
+        
+        function myFunction(){
+            // var number = document.getElementsByName("nhap").value;
+            var number = document.querySelector("input[name='nhap']").value;
+            var greeting;
+            if (number == 0){
+                greeting="ban duoc 0 diem";
+            }
+            else if (number > 0){
+                greeting="day la so duong";
+            }
+            else 
+            {
+                greeting="day la so am";
+            }
+            document.getElementById("demo").innerHTML = greeting;
+        }
+    </script>
+</body>
+</html>

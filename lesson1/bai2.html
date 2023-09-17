@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click on the button to demonstrate the prompt box</p>
+    <button onclick="areaRectange()">Rectange</button>
+    <button onclick="areaSquare()">Square</button>
+    <button onclick="hello()">Hello</button>
+    <p id="hcn"></p>
+    <p id="hv"></p>
+    <p id="hello"></p>
+    <script language="JavaScript">
+        function areaRectange(){
+            var a = parseInt(prompt("Enter length:"));
+            var b = parseInt(prompt("Enter width:"));
+            var dt = a*b;
+            document.getElementById("hcn").innerHTML="The area of rectange is " + dt;
+        }
+
+        function areaSquare(){
+            var a = parseInt(prompt("Enter side length:"));
+            var dt = a*a;
+            document.getElementById("hv").innerHTML="The area of square is " + dt;
+        }
+        
+        function hello(){
+            var person=prompt("Please enter your name:");
+            document.getElementById("hello").innerHTML= "Wel come to PNV" + "<br>" + "My name is " + person;
+        }
+
+    </script>
+</body>
+</html>

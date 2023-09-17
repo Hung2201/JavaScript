@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dien tich va chu vi</title>
+</head>
+<body>
+    <script language="javascript">
+        
+        function chuvi(a,b){
+            return (a+b) * 2;
+        }
+
+        function dientich(a,b){
+            return a*b;
+        }
+        var a = parseInt(prompt("Nhap canh a:"));
+        var b = parseInt(prompt("Nhap canh b:"));
+        var chuvi=chuvi(a,b);
+        var dientich=dientich(a,b);
+
+
+        document.write("chu vi is " + chuvi  + "</br>" + "dien tich is " + dientich);
+    </script>
+</body>
+</html>

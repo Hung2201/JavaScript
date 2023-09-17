@@ -74,3 +74,74 @@ setInterval(function() {
     **=   x **= y --> x = x ** y
  */
 
+
+/** Toan tu ++ --
+ * Prefix & Postfix
+ * ++a việc 1: +1 cho a, a= a + 1
+ * Việc 2: Trả về a sau khi được + 1
+ * --a tương tự ++a
+ * 
+ * postfix:
+ * 
+ */
+
+// Toán tử chuỗi - String operator
+
+// var fName = "Hung";
+// // var lName = "Tran";
+// fName += " Dang"
+// console.log(fName);
+
+// Boolean
+/**
+ * 0
+ * false
+ * undefined
+ * NaN
+ * null
+ * ---> true
+ */ 
+
+// chuỗi
+// 1.length
+// myString.length
+/**Find index
+ * indexOf('', number)
+ * lastIndexOf('')
+ * search('')
+ */
+
+// 3.Cut String
+/**
+ * myString.slide(numberfirst, numberlast)
+ */
+
+// 4.Replace
+/**
+ * myString.replace('Js', 'JavaScript')
+ * trong chuỗi có nhiều chuỗi sẽ thay thế giống nhau dùng: myString.replace(/JS/g, "javascript")
+ */
+
+// 5.Trim
+/**
+ * Loại bỏ kí tự trắng ở đầu cuối
+ * myString.trim()
+ */
+
+// 6.Split
+/**
+ * tách chuỗi thành array với 1 điểm chung nào đó
+ * mySring.split("điểm chung")
+ */
+
+// 7.get character by index
+/**
+ * myString.charAt(index)
+ */
+
+// 8.làm việc với number
+/**
+ * toString()
+ * toFixed():Làm tròn số
+ */
+
