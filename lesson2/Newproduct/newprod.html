@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          #table, th, td {
+                padding: 10px;
+            }
+            table {
+                border-spacing: 15px;
+            }
+    </style>
+</head>
+
+<body>
+    <h2>New Product</h2>
+    <form name="form">
+        <p>
+            <label for="">
+                Product name
+                <input type="text" name="product" id="product">
+            </label>
+            <label for="">
+                Quantity
+                <input type="text" name="quantity" id="quantity">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Unit price
+                <input type="number" name="price" id="price">
+            </label>
+            <label for="">
+                Discount
+                <input type="number" name="discount" id="discount">
+            </label>
+        </p>
+        <p>
+            <input type="button" value="Sell" name="" id="" onclick="sell()" ></input>
+            <input type="button" value="Cancel" name="" id="" onclick="cancel()" ></input>
+        </p>
+
+        <table id="table">
+            <tr>
+                <th>ID</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Discount</th>
+                <th>SubPrice</th>
+            </tr>
+        </table>
+    </form>
+    <script src="newprod.js"></script>
+</body>
+</html>
